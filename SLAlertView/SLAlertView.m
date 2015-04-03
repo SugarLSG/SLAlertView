@@ -100,7 +100,7 @@ static SLAlertView *slAlertView = nil;
             case SLAlertViewTypeSuccess: {
                 // 成功
                 UIImageView *successView = [[UIImageView alloc] initWithFrame:CGRectMake((contentView.frame.size.width - 32) / 2, 0, 32, 32)];
-                successView.image = [UIImage imageNamed:@"checkmark"];
+                successView.image = [UIImage imageNamed:@"success"];
                 [contentView addSubview:successView];
                 
                 lblTextY = successView.frame.size.height + 8;
@@ -109,7 +109,7 @@ static SLAlertView *slAlertView = nil;
             case SLAlertViewTypeError: {
                 // 错误
                 UIImageView *errorView = [[UIImageView alloc] initWithFrame:CGRectMake((contentView.frame.size.width - 32) / 2, 0, 32, 32)];
-                errorView.image = [UIImage imageNamed:@"cross"];
+                errorView.image = [UIImage imageNamed:@"error"];
                 [contentView addSubview:errorView];
                 
                 lblTextY = errorView.frame.size.height + 8;
