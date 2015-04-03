@@ -12,5 +12,5 @@ Pod::Spec.new do |s|
 
   #s.public_header_files = 'SLStaticLibrary/*.h'
   s.source_files = 'SLAlertView/*.{h,m}'
-  s.resource = 'SLAlertView/SLAlertView.bundle'
+  s.resource = 'SLAlertView/SLImages.bundle'
 end
